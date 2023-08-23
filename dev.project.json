@@ -1,0 +1,21 @@
+{
+    "name": "ReactResponsive",
+    "tree": {
+        "$className": "DataModel",
+
+        "ReplicatedStorage": {
+            "$className": "ReplicatedStorage",
+
+            "Examples": {
+                "$path": "examples"
+            },
+
+            "Packages": {
+                "$path": "Packages",
+                "Responsive": {
+                    "$path": "src"
+                }
+            }
+        }
+    }
+}

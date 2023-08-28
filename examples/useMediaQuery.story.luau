@@ -2,10 +2,10 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 local React = require(ReplicatedStorage.Packages.React)
 local ReactRoblox = require(ReplicatedStorage.Packages.ReactRoblox)
-local Responsive = require(ReplicatedStorage.Packages.Responsive)
+local ReactResponsive = require(ReplicatedStorage.Packages.ReactResponsive)
 
 local function Story()
-	local isVisible = Responsive.useMediaQuery({
+	local isVisible = ReactResponsive.useMediaQuery({
 		minBreakpoint = "lg",
 	})
 
@@ -19,7 +19,7 @@ end
 
 return function(t: GuiObject)
 	local root = ReactRoblox.createRoot(t)
-	root:render(React.createElement(Responsive.ScreenProvider, {
+	root:render(React.createElement(ReactResponsive.ScreenProvider, {
 		updateInterval = 0.1,
 	}, {
 		Story = React.createElement(Story),

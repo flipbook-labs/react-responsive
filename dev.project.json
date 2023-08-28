@@ -9,7 +9,7 @@
             },
             "Packages": {
                 "$path": "Packages",
-                "Responsive": {
+                "ReactResponsive": {
                     "$path": "src"
                 }
             }

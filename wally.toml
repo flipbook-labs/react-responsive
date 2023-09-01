@@ -16,4 +16,4 @@ include = [
 [dependencies]
 React = "jsdotlua/react@^17"
 ReactRoblox = "jsdotlua/react-roblox@^17"
-Sift = "csqrl/sift@0.0.6"
+Sift = "csqrl/sift@0.0.8"

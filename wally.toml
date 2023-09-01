@@ -1,9 +1,10 @@
 [package]
-name = "flipbook-labs/react-responsive"
+name = "Rusty483/react-responsive"
 version = "0.1.0"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 exclude = ["*"]
+author = "https://github.com/flipbook-labs"
 include = [
   "src",
   "src/**",
